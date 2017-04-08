@@ -1,0 +1,10 @@
+<h1>보낸 메일함</h1>
+<% @kafa.each do |k|%>
+   <%= k.title %><br>
+   <%= k.email %><br>
+   <%= k.content %>
+   
+   
+<% end %>
+
+<a href='/'>메일 쓰기로 돌아가기</a>
